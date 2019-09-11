@@ -1,0 +1,58 @@
+{
+  "author": {
+    "name": "Cory Roloff",
+    "url": "http://coryroloff.com"
+  },
+  "bugs": {
+    "url": "https://github.com/coryroloff/grunt-dustjs-linkedin/issues"
+  },
+  "dependencies": {
+    "dustjs-helpers": "^1.2.0",
+    "dustjs-linkedin": "^2.4.0",
+    "lodash": "^2.4.1"
+  },
+  "description": "Compile DUST files to JS.",
+  "devDependencies": {
+    "grunt": "^0.4.2",
+    "grunt-cli": "^0.1.13",
+    "grunt-contrib-clean": "^0.5.0",
+    "grunt-contrib-jshint": "^0.8.0",
+    "grunt-contrib-nodeunit": "^0.3.2"
+  },
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "files": [
+    "tasks",
+    "dustc.js",
+    "LICENSE"
+  ],
+  "homepage": "https://github.com/coryroloff/grunt-dustjs-linkedin#readme",
+  "keywords": [
+    "grunt",
+    "gruntplugin",
+    "dust",
+    "linkedin",
+    "q",
+    "bluebird",
+    "requirejs",
+    "commonjs",
+    "amd"
+  ],
+  "license": {
+    "name": "MIT",
+    "url": "https://github.com/coryroloff/grunt-dustjs-linkedin/blob/master/LICENSE"
+  },
+  "name": "grunt-dustjs-linkedin",
+  "peerDependencies": {
+    "grunt": "^0.4.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/coryroloff/grunt-dustjs-linkedin.git"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "version": "0.5.0"
+}
