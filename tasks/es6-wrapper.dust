@@ -1,0 +1,8 @@
+{#dependencies}
+import {key|s} from "{value|s}";{/dependencies}
+{#partials}
+import "{.|s}.js";{/partials}
+
+{compiled|s}
+
+{#helper}export default {helper|s};{:else}export default 0;{/helper}

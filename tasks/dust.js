@@ -18,9 +18,10 @@ Builder.prototype = {
     _.each([
       'amd-wrapper',
       'commonjs-wrapper',
+      'es6-wrapper',
       'dust-helper',
       'q-helper',
-      'bluebird-helper'
+      'bluebird-helper',
     ], function(name) {
       var file = path.join(__dirname, name + '.dust');
       var source = self.grunt.file.read(file);
@@ -40,7 +41,8 @@ Builder.prototype = {
       partialDepPrefix: "",
       dependencies: {},
       banner: '',
-      footer: ''
+      footer: '',
+      index_file: null
     });
     _.each(files, function(file) {
       self.grunt.file.write(file.dest, self.compile(file, options));
@@ -143,6 +145,7 @@ Builder.prototype = {
     switch(wrapper) {
       case 'amd':
       case 'commonjs':
+      case 'es6':
         wrapperOutput = this.wrapper(wrapper, data, options);
         break;
       default:
