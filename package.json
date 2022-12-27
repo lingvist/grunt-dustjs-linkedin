@@ -9,15 +9,15 @@
   "dependencies": {
     "dustjs-helpers": "1.2.0",
     "dustjs-linkedin": "2.4.0",
-    "lodash": "4.17.19"
+    "lodash": "4.17.21"
   },
   "description": "Compile DUST files to JS.",
   "devDependencies": {
-    "grunt": "1.0.4",
-    "grunt-cli": "1.3.2",
-    "grunt-contrib-clean": "0.5.0",
-    "grunt-contrib-jshint": "2.1.0",
-    "grunt-contrib-nodeunit": "0.3.2"
+    "grunt": "1.5.3",
+    "grunt-cli": "1.4.3",
+    "grunt-contrib-clean": "2.0.1",
+    "grunt-contrib-jshint": "3.2.0",
+    "grunt-contrib-nodeunit": "4.0.0"
   },
   "engines": {
     "node": ">= 0.10.0"
@@ -54,5 +54,5 @@
   "scripts": {
     "test": "grunt test"
   },
-  "version": "0.5.0"
+  "version": "0.5.1"
 }
