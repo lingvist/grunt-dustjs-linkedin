@@ -8,7 +8,7 @@
   },
   "dependencies": {
     "dustjs-helpers": "1.2.0",
-    "dustjs-linkedin": "2.4.0",
+    "dustjs-linkedin": "3.0.0",
     "lodash": "4.17.21"
   },
   "description": "Compile DUST files to JS.",
